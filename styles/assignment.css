@@ -242,7 +242,7 @@
 .target-container {
     display: flex;
     /* text-align: center; */
-    justify-content: space-evenly;
+    /* justify-content:space-around */
     margin: 30px 190px 30px 190px;
 }
 
@@ -250,6 +250,7 @@
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
     margin-right: 10px;
+    padding: 40px 40px 40px 40px;
 }
 
 .html-heading {
@@ -278,3 +279,60 @@
     border: none;
     margin-top: 20px;
 }
+
+.target-css {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    margin-right: 10px;
+    padding: 40px 40px 40px 40px;
+}
+.css-heading{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    margin: 20px 20px 20px 0;   
+}
+.css-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    opacity: 0.7;   
+}
+.css-btn{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-line: underline;
+    border: none;
+    margin-top: 20px;
+}
+.target-js{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05); 
+    padding: 40px 40px 40px 40px; 
+}
+.js-heading{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    margin: 20px 20px 20px 0;   
+}
+.js-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    opacity: 0.7;   
+}
+.js-btn{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-line: underline;
+    border: none;
+    margin-top: 20px;}
