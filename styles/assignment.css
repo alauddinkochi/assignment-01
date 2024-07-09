@@ -56,6 +56,8 @@
     margin: 30px;
 }
 
+/* title part styles */
+
 .title {
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
@@ -188,4 +190,28 @@
     font-size: 20px;
     font-weight: 600;
     text-align: center;
+}
+/* My inspiration part style */
+    
+.Inspiration-heading {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.Inspiration-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+    margin: 24px 0px;
+
+}
+.video{
+    border-radius: 16px;
+    margin: 30px 180px 30px 180px;
+
 }
