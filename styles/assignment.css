@@ -191,8 +191,9 @@
     font-weight: 600;
     text-align: center;
 }
+
 /* My inspiration part style */
-    
+
 .Inspiration-heading {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -210,8 +211,70 @@
     margin: 24px 0px;
 
 }
-.video{
+
+.video {
     border-radius: 16px;
     margin: 30px 180px 30px 180px;
 
+}
+
+/* my current target styles */
+
+.target-title {
+    text-align: center;
+}
+
+.target-heading {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.target-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 30px;
+}
+
+.target-container {
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-evenly;
+    margin: 30px 190px 30px 190px;
+}
+
+.target-html {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    margin-right: 10px;
+}
+
+.html-heading {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    margin: 20px 20px 20px 0;
+}
+
+.html-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    opacity: 0.7;
+
+}
+
+.html-btn {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-line: underline;
+    border: none;
+    margin-top: 20px;
 }
