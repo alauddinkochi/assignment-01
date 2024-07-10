@@ -236,7 +236,7 @@
     font-size: 16px;
     font-weight: 400;
     opacity: 0.7;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .target-container {
@@ -286,21 +286,24 @@
     margin-right: 10px;
     padding: 40px 40px 40px 40px;
 }
-.css-heading{
+
+.css-heading {
     color: rgb(13, 19, 33);
     font-size: 24px;
     font-weight: 800;
     text-align: left;
-    margin: 20px 20px 20px 0;   
+    margin: 20px 20px 20px 0;
 }
-.css-description{
+
+.css-description {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
     text-align: left;
-    opacity: 0.7;   
+    opacity: 0.7;
 }
-.css-btn{
+
+.css-btn {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
@@ -309,30 +312,92 @@
     border: none;
     margin-top: 20px;
 }
-.target-js{
+
+.target-js {
     border-radius: 16px;
-    background: rgba(255, 223, 0, 0.05); 
-    padding: 40px 40px 40px 40px; 
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px 40px 40px 40px;
 }
-.js-heading{
+
+.js-heading {
     color: rgb(13, 19, 33);
     font-size: 24px;
     font-weight: 800;
     text-align: left;
-    margin: 20px 20px 20px 0;   
+    margin: 20px 20px 20px 0;
 }
-.js-description{
+
+.js-description {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
     text-align: left;
-    opacity: 0.7;   
+    opacity: 0.7;
 }
-.js-btn{
+
+.js-btn {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
     text-align: left;
     text-decoration-line: underline;
     border: none;
-    margin-top: 20px;}
+    margin-top: 20px;
+}
+
+/* i need support style */
+.support-heading {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.support-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.secondary-bg {
+    background-image: url('../assets/handshake.jpg');
+    background-size: cover;
+    border-radius: 16px;
+    position: absolute;
+    width: 1140px;
+    height: 314px;
+    left: 190px;
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
+}
+
+.box-area {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin-top: 50px;
+}
+    
+    
+
+.box-btn {
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 15px 17px 15px 17px;
+    margin-top: 50px;
+    
+}
